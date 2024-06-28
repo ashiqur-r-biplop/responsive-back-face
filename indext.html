@@ -1,292 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="container">
-        
-        <div class="Emphasize-flex-col">
-            <div class="Emphasize-grid">
-                <div class="Emphasize-card">
-                    <div class="Emphasize-card-content" id="Emphasize-card-1">
-                        <div class="Emphasize-card-front">
-                            <h1 class="Emphasize-card-title">
-                                Cleaning Solutions
-                            </h1>
-                        </div>
-                        <div class="Emphasize-card-back">
-                            <p class="card-description"> Tailored to fit your unique office layout and specific cleaning
-                                needs, enhancing efficiency and effectiveness</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="Emphasize-card">
-                    <div class="Emphasize-card-content" id="Emphasize-card-2">
-                        <div class="Emphasize-card-front">
-                            <h1 class="Emphasize-card-title">
-                                Health and Productivity
-                            </h1>
-                        </div>
-                        <div class="Emphasize-card-back">
-                            <p class="card-description">A clean office is a healthy one, reducing sick days and boosting
-                                overall productivity and morale among your team.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="Emphasize-card">
-                    <div class="Emphasize-card-content" id="Emphasize-card-3">
-                        <div class="Emphasize-card-front">
-                            <h1 class="Emphasize-card-title">
-                                 Professional Image
-                            </h1>
-                        </div>
-                        <div class="Emphasize-card-back">
-                            <p class="card-description"> First impressions count. A meticulously maintained workspace
-                                speaks volumes about your professionalism to clients and visitors.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="Emphasize-card">
-                    <div class="Emphasize-card-content" id="Emphasize-card-4">
-                        <div class="Emphasize-card-front">
-                            <h1 class="Emphasize-card-title"> Flexibility and Reliability</h1>
-                        </div>
-                        <div class="Emphasize-card-back">
-                            <p class="card-description"> We work around your schedule, ensuring our services are
-                                delivered with minimal disruption to your operations.
-
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
+      <div class="Emphasize-flex-col">
+        <div class="Emphasize-grid">
+          <div class="Emphasize-card">
+            <div class="Emphasize-card-content" id="Emphasize-card-1">
+              <div class="Emphasize-card-front">
+                <h1 class="Emphasize-card-title">Cleaning Solutions</h1>
+              </div>
+              <div class="Emphasize-card-back">
+                <p class="card-description">
+                  Tailored to fit your unique office layout and specific
+                  cleaning needs, enhancing efficiency and effectiveness
+                </p>
+              </div>
             </div>
-            <div class="Comprehensive-card">
-                <div class="Emphasize-card">
-                    <div class="Emphasize-card-content" id="Emphasize-card-5">
-                        <div class="Emphasize-card-front">
-                            <h1 class="Emphasize-card-title">
-                                Comprehensive Coverage
-                            </h1>
-                        </div>
-                        <div class="Emphasize-card-back">
-                            <p class="card-description">From general cleaning to deep cleaning and specialized services,
-                                we cover every aspect of office cleanliness.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="Emphasize-card">
+            <div class="Emphasize-card-content" id="Emphasize-card-2">
+              <div class="Emphasize-card-front">
+                <h1 class="Emphasize-card-title">Health and Productivity</h1>
+              </div>
+              <div class="Emphasize-card-back">
+                <p class="card-description">
+                  A clean office is a healthy one, reducing sick days and
+                  boosting overall productivity and morale among your team.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="Emphasize-card">
+            <div class="Emphasize-card-content" id="Emphasize-card-3">
+              <div class="Emphasize-card-front">
+                <h1 class="Emphasize-card-title">Professional Image</h1>
+              </div>
+              <div class="Emphasize-card-back">
+                <p class="card-description">
+                  First impressions count. A meticulously maintained workspace
+                  speaks volumes about your professionalism to clients and
+                  visitors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Emphasize-card">
+            <div class="Emphasize-card-content" id="Emphasize-card-4">
+              <div class="Emphasize-card-front">
+                <h1 class="Emphasize-card-title">
+                  Flexibility and Reliability
+                </h1>
+              </div>
+              <div class="Emphasize-card-back">
+                <p class="card-description">
+                  We work around your schedule, ensuring our services are
+                  delivered with minimal disruption to your operations.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="Comprehensive-card">
+          <div class="Emphasize-card">
+            <div class="Emphasize-card-content" id="Emphasize-card-5">
+              <div class="Emphasize-card-front">
+                <h1 class="Emphasize-card-title">Comprehensive Coverage</h1>
+              </div>
+              <div class="Emphasize-card-back">
+                <p class="card-description">
+                  From general cleaning to deep cleaning and specialized
+                  services, we cover every aspect of office cleanliness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <script>
+      // Emphasize Unique Benefits js start
+      document
+        .getElementById("Emphasize-card-1")
+        .addEventListener("mouseover", () => {
+          const card = document.getElementById("Emphasize-card-1");
+          card.style.transform = "rotateY(180deg)";
+        }); 
+      document
+        .getElementById("Emphasize-card-1")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("Emphasize-card-1");
+          card.style.transform = "rotateY(0deg)";
+        });
+      document
+        .getElementById("Emphasize-card-2")
+        .addEventListener("mouseover", () => {
+          const card = document.getElementById("Emphasize-card-2");
+          card.style.transform = "rotateY(180deg)";
+        });
+      document
+        .getElementById("Emphasize-card-2")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("Emphasize-card-2");
+          card.style.transform = "rotateY(0deg)";
+        });
+      document
+        .getElementById("Emphasize-card-3")
+        .addEventListener("mouseover", () => {
+          const card = document.getElementById("Emphasize-card-3");
+          card.style.transform = "rotateY(180deg)";
+        });
+      document
+        .getElementById("Emphasize-card-3")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("Emphasize-card-3");
+          card.style.transform = "rotateY(0deg)";
+        });
+      document
+        .getElementById("Emphasize-card-4")
+        .addEventListener("mouseover", () => {
+          const card = document.getElementById("Emphasize-card-4");
+          card.style.transform = "rotateY(180deg)";
+        });
+      document
+        .getElementById("Emphasize-card-4")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("Emphasize-card-4");
+          card.style.transform = "rotateY(0deg)";
+        });
+      document
+        .getElementById("Emphasize-card-5")
+        .addEventListener("mouseover", () => {
+          const card = document.getElementById("Emphasize-card-5");
+          card.style.transform = "rotateY(180deg)";
+        });
+      document
+        .getElementById("Emphasize-card-5")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("Emphasize-card-5");
+          card.style.transform = "rotateY(0deg)";
+        });
+      // Emphasize Unique Benefits js end
 
-<script>// Emphasize Unique Benefits js start
-document
-  .getElementById("Emphasize-card-1")
-  .addEventListener("mouseover", () => {
-    const card = document.getElementById("Emphasize-card-1");
-    card.style.transform = "rotateY(180deg)";
-  });
-document
-  .getElementById("Emphasize-card-1")
-  .addEventListener("mouseleave", () => {
-    const card = document.getElementById("Emphasize-card-1");
-    card.style.transform = "rotateY(0deg)";
-  });
-document
-  .getElementById("Emphasize-card-2")
-  .addEventListener("mouseover", () => {
-    const card = document.getElementById("Emphasize-card-2");
-    card.style.transform = "rotateY(180deg)";
-  });
-document
-  .getElementById("Emphasize-card-2")
-  .addEventListener("mouseleave", () => {
-    const card = document.getElementById("Emphasize-card-2");
-    card.style.transform = "rotateY(0deg)";
-  });
-document
-  .getElementById("Emphasize-card-3")
-  .addEventListener("mouseover", () => {
-    const card = document.getElementById("Emphasize-card-3");
-    card.style.transform = "rotateY(180deg)";
-  });
-document
-  .getElementById("Emphasize-card-3")
-  .addEventListener("mouseleave", () => {
-    const card = document.getElementById("Emphasize-card-3");
-    card.style.transform = "rotateY(0deg)";
-  });
-document
-  .getElementById("Emphasize-card-4")
-  .addEventListener("mouseover", () => {
-    const card = document.getElementById("Emphasize-card-4");
-    card.style.transform = "rotateY(180deg)";
-  });
-document
-  .getElementById("Emphasize-card-4")
-  .addEventListener("mouseleave", () => {
-    const card = document.getElementById("Emphasize-card-4");
-    card.style.transform = "rotateY(0deg)";
-  });
-document
-  .getElementById("Emphasize-card-5")
-  .addEventListener("mouseover", () => {
-    const card = document.getElementById("Emphasize-card-5");
-    card.style.transform = "rotateY(180deg)";
-  });
-document
-  .getElementById("Emphasize-card-5")
-  .addEventListener("mouseleave", () => {
-    const card = document.getElementById("Emphasize-card-5");
-    card.style.transform = "rotateY(0deg)";
-  });
-// Emphasize Unique Benefits js end
+      // overlay card image zoom in effect
+      document
+        .getElementById("overlay-card-1")
+        .addEventListener("mouseenter", () => {
+          const card = document.getElementById("overlay-layer-1");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-1"
+          );
+          card.style.transform = "scale(100%)";
 
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          card.style.transition = "transform 1s";
+          CommercialServiceTitle.style.display = "none";
+        });
+      document
+        .getElementById("overlay-card-1")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("overlay-layer-1");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-1"
+          );
+          card.style.transform = "scale(-0%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "flex";
+        });
+      document
+        .getElementById("overlay-card-2")
+        .addEventListener("mouseenter", () => {
+          const card = document.getElementById("overlay-layer-2");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-2"
+          );
+          card.style.transform = "scale(100%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "none";
+        });
+      document
+        .getElementById("overlay-card-2")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("overlay-layer-2");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-2"
+          );
+          card.style.transform = "scale(-0%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "flex";
+        });
+      document
+        .getElementById("overlay-card-3")
+        .addEventListener("mouseenter", () => {
+          const card = document.getElementById("overlay-layer-3");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-3"
+          );
+          card.style.transform = "scale(100%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "none";
+        });
+      document
+        .getElementById("overlay-card-3")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("overlay-layer-3");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-3"
+          );
+          card.style.transform = "scale(-0%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "flex";
+        });
+      document
+        .getElementById("overlay-card-4")
+        .addEventListener("mouseenter", () => {
+          const card = document.getElementById("overlay-layer-4");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-4"
+          );
+          card.style.transform = "scale(100%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "none";
+        });
+      document
+        .getElementById("overlay-card-4")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("overlay-layer-4");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-4"
+          );
+          card.style.transform = "scale(-0%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "flex";
+        });
+      document
+        .getElementById("overlay-card-5")
+        .addEventListener("mouseenter", () => {
+          const card = document.getElementById("overlay-layer-5");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-5"
+          );
+          card.style.transform = "scale(100%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "none";
+        });
+      document
+        .getElementById("overlay-card-5")
+        .addEventListener("mouseleave", () => {
+          const card = document.getElementById("overlay-layer-5");
+          const CommercialServiceTitle = document.getElementById(
+            "Commercial-service-title-5"
+          );
+          card.style.transform = "scale(-0%)";
+          card.style.transition = "transform 1s";
+          card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
+          card.style.borderLeft = "10px solid #3D6CE9";
+          card.style.borderRight = "10px solid #3D6CE9";
+          CommercialServiceTitle.style.display = "flex";
+        });
+    </script>
 
-// overlay card image zoom in effect
-document.getElementById("overlay-card-1").addEventListener("mouseenter", () => {
-  const card = document.getElementById("overlay-layer-1");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-1"
-  );
-  card.style.transform = "scale(100%)";
+    <!-- Include Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
 
-
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  card.style.transition = "transform 1s";
-  CommercialServiceTitle.style.display = "none";
-});
-document.getElementById("overlay-card-1").addEventListener("mouseleave", () => {
-  const card = document.getElementById("overlay-layer-1");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-1"
-  );
-  card.style.transform = "scale(-0%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "flex";
-});
-document.getElementById("overlay-card-2").addEventListener("mouseenter", () => {
-  const card = document.getElementById("overlay-layer-2");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-2"
-  );
-  card.style.transform = "scale(100%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "none";
-});
-document.getElementById("overlay-card-2").addEventListener("mouseleave", () => {
-  const card = document.getElementById("overlay-layer-2");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-2"
-  );
-  card.style.transform = "scale(-0%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "flex";
-});
-document.getElementById("overlay-card-3").addEventListener("mouseenter", () => {
-  const card = document.getElementById("overlay-layer-3");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-3"
-  );
-  card.style.transform = "scale(100%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "none";
-});
-document.getElementById("overlay-card-3").addEventListener("mouseleave", () => {
-  const card = document.getElementById("overlay-layer-3");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-3"
-  );
-  card.style.transform = "scale(-0%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "flex";
-});
-document.getElementById("overlay-card-4").addEventListener("mouseenter", () => {
-  const card = document.getElementById("overlay-layer-4");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-4"
-  );
-  card.style.transform = "scale(100%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "none";
-});
-document.getElementById("overlay-card-4").addEventListener("mouseleave", () => {
-  const card = document.getElementById("overlay-layer-4");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-4"
-  );
-  card.style.transform = "scale(-0%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "flex";
-});
-document.getElementById("overlay-card-5").addEventListener("mouseenter", () => {
-  const card = document.getElementById("overlay-layer-5");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-5"
-  );
-  card.style.transform = "scale(100%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "none";
-});
-document.getElementById("overlay-card-5").addEventListener("mouseleave", () => {
-  const card = document.getElementById("overlay-layer-5");
-  const CommercialServiceTitle = document.getElementById(
-    "Commercial-service-title-5"
-  );
-  card.style.transform = "scale(-0%)";
-  card.style.transition = "transform 1s";
-  card.style.clipPath = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)";
-  card.style.borderLeft = "10px solid #3D6CE9";
-  card.style.borderRight = "10px solid #3D6CE9";
-  CommercialServiceTitle.style.display = "flex";
-});
-</script>
-
-
-
-
-<!-- Include Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-
-<!-- Include Font Awesome CSS (for the arrow icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-
-</body>
+    <!-- Include Font Awesome CSS (for the arrow icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </body>
 </html>
